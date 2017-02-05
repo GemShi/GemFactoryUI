@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFE1414C1E46CB0C00C200B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE1414B1E46CB0C00C200B6 /* main.m */; };
+		DFE1414F1E46CB0C00C200B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE1414E1E46CB0C00C200B6 /* AppDelegate.m */; };
+		DFE141521E46CB0C00C200B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE141511E46CB0C00C200B6 /* ViewController.m */; };
+		DFE141551E46CB0C00C200B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE141531E46CB0C00C200B6 /* Main.storyboard */; };
+		DFE141571E46CB0C00C200B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE141561E46CB0C00C200B6 /* Assets.xcassets */; };
+		DFE1415A1E46CB0C00C200B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE141581E46CB0C00C200B6 /* LaunchScreen.storyboard */; };
+		DFE141651E46CB0D00C200B6 /* GemFactoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE141641E46CB0D00C200B6 /* GemFactoryUITests.m */; };
+		DFE141701E46CB0D00C200B6 /* GemFactoryUIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE1416F1E46CB0D00C200B6 /* GemFactoryUIUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFE141611E46CB0D00C200B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFE1413F1E46CB0C00C200B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFE141461E46CB0C00C200B6;
+			remoteInfo = GemFactoryUI;
+		};
+		DFE1416C1E46CB0D00C200B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFE1413F1E46CB0C00C200B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFE141461E46CB0C00C200B6;
+			remoteInfo = GemFactoryUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFE141471E46CB0C00C200B6 /* GemFactoryUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GemFactoryUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE1414B1E46CB0C00C200B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFE1414D1E46CB0C00C200B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFE1414E1E46CB0C00C200B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFE141501E46CB0C00C200B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DFE141511E46CB0C00C200B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DFE141541E46CB0C00C200B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFE141561E46CB0C00C200B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFE141591E46CB0C00C200B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFE1415B1E46CB0C00C200B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE141601E46CB0D00C200B6 /* GemFactoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GemFactoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE141641E46CB0D00C200B6 /* GemFactoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GemFactoryUITests.m; sourceTree = "<group>"; };
+		DFE141661E46CB0D00C200B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE1416B1E46CB0D00C200B6 /* GemFactoryUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GemFactoryUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE1416F1E46CB0D00C200B6 /* GemFactoryUIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GemFactoryUIUITests.m; sourceTree = "<group>"; };
+		DFE141711E46CB0D00C200B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFE141441E46CB0C00C200B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE1415D1E46CB0D00C200B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE141681E46CB0D00C200B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFE1413E1E46CB0C00C200B6 = {
+			isa = PBXGroup;
+			children = (
+				DFE141491E46CB0C00C200B6 /* GemFactoryUI */,
+				DFE141631E46CB0D00C200B6 /* GemFactoryUITests */,
+				DFE1416E1E46CB0D00C200B6 /* GemFactoryUIUITests */,
+				DFE141481E46CB0C00C200B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFE141481E46CB0C00C200B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFE141471E46CB0C00C200B6 /* GemFactoryUI.app */,
+				DFE141601E46CB0D00C200B6 /* GemFactoryUITests.xctest */,
+				DFE1416B1E46CB0D00C200B6 /* GemFactoryUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFE141491E46CB0C00C200B6 /* GemFactoryUI */ = {
+			isa = PBXGroup;
+			children = (
+				DFE1414D1E46CB0C00C200B6 /* AppDelegate.h */,
+				DFE1414E1E46CB0C00C200B6 /* AppDelegate.m */,
+				DFE141501E46CB0C00C200B6 /* ViewController.h */,
+				DFE141511E46CB0C00C200B6 /* ViewController.m */,
+				DFE141531E46CB0C00C200B6 /* Main.storyboard */,
+				DFE141561E46CB0C00C200B6 /* Assets.xcassets */,
+				DFE141581E46CB0C00C200B6 /* LaunchScreen.storyboard */,
+				DFE1415B1E46CB0C00C200B6 /* Info.plist */,
+				DFE1414A1E46CB0C00C200B6 /* Supporting Files */,
+			);
+			path = GemFactoryUI;
+			sourceTree = "<group>";
+		};
+		DFE1414A1E46CB0C00C200B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFE1414B1E46CB0C00C200B6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFE141631E46CB0D00C200B6 /* GemFactoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFE141641E46CB0D00C200B6 /* GemFactoryUITests.m */,
+				DFE141661E46CB0D00C200B6 /* Info.plist */,
+			);
+			path = GemFactoryUITests;
+			sourceTree = "<group>";
+		};
+		DFE1416E1E46CB0D00C200B6 /* GemFactoryUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFE1416F1E46CB0D00C200B6 /* GemFactoryUIUITests.m */,
+				DFE141711E46CB0D00C200B6 /* Info.plist */,
+			);
+			path = GemFactoryUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFE141461E46CB0C00C200B6 /* GemFactoryUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE141741E46CB0D00C200B6 /* Build configuration list for PBXNativeTarget "GemFactoryUI" */;
+			buildPhases = (
+				DFE141431E46CB0C00C200B6 /* Sources */,
+				DFE141441E46CB0C00C200B6 /* Frameworks */,
+				DFE141451E46CB0C00C200B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GemFactoryUI;
+			productName = GemFactoryUI;
+			productReference = DFE141471E46CB0C00C200B6 /* GemFactoryUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFE1415F1E46CB0D00C200B6 /* GemFactoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE141771E46CB0D00C200B6 /* Build configuration list for PBXNativeTarget "GemFactoryUITests" */;
+			buildPhases = (
+				DFE1415C1E46CB0D00C200B6 /* Sources */,
+				DFE1415D1E46CB0D00C200B6 /* Frameworks */,
+				DFE1415E1E46CB0D00C200B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFE141621E46CB0D00C200B6 /* PBXTargetDependency */,
+			);
+			name = GemFactoryUITests;
+			productName = GemFactoryUITests;
+			productReference = DFE141601E46CB0D00C200B6 /* GemFactoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFE1416A1E46CB0D00C200B6 /* GemFactoryUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE1417A1E46CB0D00C200B6 /* Build configuration list for PBXNativeTarget "GemFactoryUIUITests" */;
+			buildPhases = (
+				DFE141671E46CB0D00C200B6 /* Sources */,
+				DFE141681E46CB0D00C200B6 /* Frameworks */,
+				DFE141691E46CB0D00C200B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFE1416D1E46CB0D00C200B6 /* PBXTargetDependency */,
+			);
+			name = GemFactoryUIUITests;
+			productName = GemFactoryUIUITests;
+			productReference = DFE1416B1E46CB0D00C200B6 /* GemFactoryUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFE1413F1E46CB0C00C200B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = GemShi;
+				TargetAttributes = {
+					DFE141461E46CB0C00C200B6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					DFE1415F1E46CB0D00C200B6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DFE141461E46CB0C00C200B6;
+					};
+					DFE1416A1E46CB0D00C200B6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DFE141461E46CB0C00C200B6;
+					};
+				};
+			};
+			buildConfigurationList = DFE141421E46CB0C00C200B6 /* Build configuration list for PBXProject "GemFactoryUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFE1413E1E46CB0C00C200B6;
+			productRefGroup = DFE141481E46CB0C00C200B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFE141461E46CB0C00C200B6 /* GemFactoryUI */,
+				DFE1415F1E46CB0D00C200B6 /* GemFactoryUITests */,
+				DFE1416A1E46CB0D00C200B6 /* GemFactoryUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFE141451E46CB0C00C200B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE1415A1E46CB0C00C200B6 /* LaunchScreen.storyboard in Resources */,
+				DFE141571E46CB0C00C200B6 /* Assets.xcassets in Resources */,
+				DFE141551E46CB0C00C200B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE1415E1E46CB0D00C200B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE141691E46CB0D00C200B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFE141431E46CB0C00C200B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE141521E46CB0C00C200B6 /* ViewController.m in Sources */,
+				DFE1414F1E46CB0C00C200B6 /* AppDelegate.m in Sources */,
+				DFE1414C1E46CB0C00C200B6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE1415C1E46CB0D00C200B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE141651E46CB0D00C200B6 /* GemFactoryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE141671E46CB0D00C200B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE141701E46CB0D00C200B6 /* GemFactoryUIUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFE141621E46CB0D00C200B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFE141461E46CB0C00C200B6 /* GemFactoryUI */;
+			targetProxy = DFE141611E46CB0D00C200B6 /* PBXContainerItemProxy */;
+		};
+		DFE1416D1E46CB0D00C200B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFE141461E46CB0C00C200B6 /* GemFactoryUI */;
+			targetProxy = DFE1416C1E46CB0D00C200B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFE141531E46CB0C00C200B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFE141541E46CB0C00C200B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFE141581E46CB0C00C200B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFE141591E46CB0C00C200B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFE141721E46CB0D00C200B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFE141731E46CB0D00C200B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFE141751E46CB0D00C200B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GemFactoryUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemFactoryUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DFE141761E46CB0D00C200B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GemFactoryUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemFactoryUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DFE141781E46CB0D00C200B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GemFactoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemFactoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GemFactoryUI.app/GemFactoryUI";
+			};
+			name = Debug;
+		};
+		DFE141791E46CB0D00C200B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GemFactoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemFactoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GemFactoryUI.app/GemFactoryUI";
+			};
+			name = Release;
+		};
+		DFE1417B1E46CB0D00C200B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GemFactoryUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemFactoryUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GemFactoryUI;
+			};
+			name = Debug;
+		};
+		DFE1417C1E46CB0D00C200B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GemFactoryUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemFactoryUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GemFactoryUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFE141421E46CB0C00C200B6 /* Build configuration list for PBXProject "GemFactoryUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE141721E46CB0D00C200B6 /* Debug */,
+				DFE141731E46CB0D00C200B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE141741E46CB0D00C200B6 /* Build configuration list for PBXNativeTarget "GemFactoryUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE141751E46CB0D00C200B6 /* Debug */,
+				DFE141761E46CB0D00C200B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFE141771E46CB0D00C200B6 /* Build configuration list for PBXNativeTarget "GemFactoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE141781E46CB0D00C200B6 /* Debug */,
+				DFE141791E46CB0D00C200B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFE1417A1E46CB0D00C200B6 /* Build configuration list for PBXNativeTarget "GemFactoryUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE1417B1E46CB0D00C200B6 /* Debug */,
+				DFE1417C1E46CB0D00C200B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFE1413F1E46CB0C00C200B6 /* Project object */;
+}
