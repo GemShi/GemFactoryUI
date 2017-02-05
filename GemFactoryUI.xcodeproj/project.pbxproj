@@ -15,6 +15,8 @@
 		DFE1415A1E46CB0C00C200B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE141581E46CB0C00C200B6 /* LaunchScreen.storyboard */; };
 		DFE141651E46CB0D00C200B6 /* GemFactoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE141641E46CB0D00C200B6 /* GemFactoryUITests.m */; };
 		DFE141701E46CB0D00C200B6 /* GemFactoryUIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE1416F1E46CB0D00C200B6 /* GemFactoryUIUITests.m */; };
+		DFE1417F1E46CB2800C200B6 /* GemFactoryUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE1417E1E46CB2800C200B6 /* GemFactoryUI.m */; };
+		DFE141811E46D27E00C200B6 /* xcode.png in Resources */ = {isa = PBXBuildFile; fileRef = DFE141801E46D27E00C200B6 /* xcode.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		DFE1416B1E46CB0D00C200B6 /* GemFactoryUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GemFactoryUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFE1416F1E46CB0D00C200B6 /* GemFactoryUIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GemFactoryUIUITests.m; sourceTree = "<group>"; };
 		DFE141711E46CB0D00C200B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE1417D1E46CB2800C200B6 /* GemFactoryUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GemFactoryUI.h; sourceTree = "<group>"; };
+		DFE1417E1E46CB2800C200B6 /* GemFactoryUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GemFactoryUI.m; sourceTree = "<group>"; };
+		DFE141801E46D27E00C200B6 /* xcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xcode.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +106,13 @@
 		DFE141491E46CB0C00C200B6 /* GemFactoryUI */ = {
 			isa = PBXGroup;
 			children = (
+				DFE141801E46D27E00C200B6 /* xcode.png */,
 				DFE1414D1E46CB0C00C200B6 /* AppDelegate.h */,
 				DFE1414E1E46CB0C00C200B6 /* AppDelegate.m */,
 				DFE141501E46CB0C00C200B6 /* ViewController.h */,
 				DFE141511E46CB0C00C200B6 /* ViewController.m */,
+				DFE1417D1E46CB2800C200B6 /* GemFactoryUI.h */,
+				DFE1417E1E46CB2800C200B6 /* GemFactoryUI.m */,
 				DFE141531E46CB0C00C200B6 /* Main.storyboard */,
 				DFE141561E46CB0C00C200B6 /* Assets.xcassets */,
 				DFE141581E46CB0C00C200B6 /* LaunchScreen.storyboard */,
@@ -249,6 +257,7 @@
 				DFE1415A1E46CB0C00C200B6 /* LaunchScreen.storyboard in Resources */,
 				DFE141571E46CB0C00C200B6 /* Assets.xcassets in Resources */,
 				DFE141551E46CB0C00C200B6 /* Main.storyboard in Resources */,
+				DFE141811E46D27E00C200B6 /* xcode.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFE1417F1E46CB2800C200B6 /* GemFactoryUI.m in Sources */,
 				DFE141521E46CB0C00C200B6 /* ViewController.m in Sources */,
 				DFE1414F1E46CB0C00C200B6 /* AppDelegate.m in Sources */,
 				DFE1414C1E46CB0C00C200B6 /* main.m in Sources */,
